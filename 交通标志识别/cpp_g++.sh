@@ -1,0 +1,1 @@
+g++  tm_yolofastest.cpp `pkg-config --libs --cflags opencv` -I /home/openailab/Tengine-Lite/build/install/include/tengine/ -L /home/openailab/Tengine-Lite/build/install/lib -l tengine-lite -o yolofastest
